@@ -89,7 +89,7 @@ void eulersMethod(std::string fn, double step, double x0, double y0, double end,
     printLatex(values, maxwidths, precision);
   } else if (csvout) {
     printCsv(values, precision);
-  } else if (csvout) {
+  } else {
     printTable(values, maxwidths, precision);
   }
 }
